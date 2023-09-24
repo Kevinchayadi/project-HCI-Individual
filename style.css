@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: auto;
+  background: black;
+}
+
+header {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 86.7%;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 2;
+  background-color: black;
+}
+
+header .tema a {
+  background: linear-gradient(#ffbe76, #fff200, #f8efba);
+  font-weight: bold;
+  outline: none;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+  font-size: 60px;
+  z-index: 99;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 30px;
+}
+
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 5px;
+  border: 1px solid;
+  border-color: rgb(212, 191, 0);
+  border-radius: 20px;
+}
+header ul li a:hover {
+  background-color: rgb(212, 191, 0);
+}
+
+#sambutan {
+  padding: 150px 0;
+  height: 50vh;
+  background-image: url(grand-city-xxi-surabaya.jpg);
+  background-size: cover;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sambutan:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(254, 211, 48, 0.6);
+}
+#sambutan h2 {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 60px;
+  font-variant: initial;
+  z-index: 1;
+  text-align: center;
+}
+section {
+  padding-bottom: 20px;
+  margin: auto;
+}
+#promosi {
+  padding: 0;
+  padding-bottom: 50px;
+  margin: 0;
+  background: black;
+}
+
+#promosi .isi {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+section img {
+  width: 50%;
+  padding: 0 20px 0 80px;
+}
+
+#promosi .isi .deskripsi {
+  padding: 20px 30px;
+}
+
+#promosi .judul {
+  font-size: 70px;
+  color: rgb(247, 236, 89);
+  font-weight: bold;
+  padding-bottom: 50px;
+}
+
+h4 {
+  font-size: 36px;
+  color: rgb(231, 231, 231);
+}
+
+#promosi h5 {
+  font-size: 40px;
+  color: rgb(255, 140, 140);
+  font-variant: normal;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(231, 231, 231);
+  text-align: center;
+  padding: 50px 0px;
+  background: linear-gradient(rgb(0, 0, 0), rgb(82, 82, 82), rgb(0, 0, 0));
+}
+
+#fasilitas {
+  padding: 0;
+  padding-bottom: 0;
+  margin: 0;
+  background: linear-gradient(
+    rgb(80, 80, 80),
+    rgb(82, 82, 82),
+    rgb(20, 20, 20)
+  );
+}
+
+#fasilitas .ilfal {
+  background: black;
+  display: flex;
+
+  width: auto;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+#fasilitas .ilfal .data {
+  padding: 0px 20px;
+  margin: auto;
+}
+
+#fasilitas .ilfal .data img {
+  border-radius: 80px 80px 80px 80px;
+  width: 80%;
+  border: 10px solid;
+  border-color: rgb(252, 252, 124);
+  padding: 0px 0px;
+}
+#fasilitas .ilfal .data p {
+  color: white;
+  text-align: center;
+  padding: 20px 0px;
+}
+ul {
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+a.tombol {
+  background: rgb(68, 0, 255);
+  border-radius: 15px;
+  margin-top: auto;
+  text-align: center;
+  padding: 15px 20px 20px;
+  color: blanchedalmond;
+  cursor: pointer;
+  text-decoration: none;
+}
+a.tombol:hover {
+  background: rgb(102, 102, 102);
+}
+
+#about p {
+  color: white;
+  text-align: center;
+}
+#copyright {
+  text-align: center;
+  padding: 20px 0;
+  width: 100%;
+  margin-top: 20px;
+  color: white;
+  background: linear-gradient(rgb(0, 0, 0), rgb(82, 82, 82), rgb(0, 0, 0));
+}
+
+@media screen and (max-width: 768px) {
+  header {
+    width: 86.7%;
+  }
+}

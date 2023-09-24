@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(rgb(0, 0, 0),rgb(82, 82, 82),rgb(0, 0, 0));
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+}
+
+header{
+    position: absolute;
+    top: 0px;
+    left: 0;
+    width: 86.7%;
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    background-color: black;
+}
+
+
+
+header .tema a{
+    background: linear-gradient(#ffbe76,#fff200,#F8EFBA);
+    font-weight: bold;
+    outline : none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 60px;
+    z-index: 99;
+}
+
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+header ul li{
+    list-style: none;
+    margin-left: 20px;
+}
+header ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 5px;
+    border: 1px solid;
+    border-color: rgb(212, 191, 0);
+    border-radius: 20px;
+
+}
+header ul li a:hover{
+    background-color: rgb(212, 191, 0);
+}
+
+
+.loginbox{
+    left: 50%;
+    transform: translate(-50%,50%);
+    box-sizing: border-box;
+    margin-top: 0px;
+    margin-left:50%;
+    padding: 0px 100px;
+    border: 1px solid;
+    
+}
+h1{
+    margin:0;
+    padding: 0% 0 20px;
+    text-align: center;
+    font-size: 48px;
+    background: linear-gradient(#ffbe76,#fff200,#F8EFBA);
+    font-weight: bold;
+    outline : none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+}
+
+.loginbox p{
+   text-align: left;
+    margin: 0;
+    padding:0;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+}
+input{
+    width: 100%;
+    margin-bottom: 20px;
+    
+
+}
+input[type]{
+    font-size: 20px;
+    border: none;
+    border-bottom:2px solid white;
+    color:white;
+    background: transparent;
+
+    
+}
+
+input[type="button"]{
+    font-size: 20px;
+    border-bottom: white;
+    color:rgb(143, 138, 138);
+    background: linear-gradient(#ffbe76,#fff200,#F8EFBA);
+    border: 2px solid;
+    border-radius: 20px;
+    
+}
+
+input[type="button"]:hover{
+    background: white;
+}
+
